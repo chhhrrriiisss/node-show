@@ -1,0 +1,40 @@
+{
+  "name": "photowake",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Chris Nicholls",
+  "homepage": "http://chrisnicholls.nz",
+  "licenses": [
+    {
+      "type": "CC-BY-NC-ND 4.0",
+      "url": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-less": "^0.11.3",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-lesslint": "^1.1.4",
+    "grunt-processhtml": "^0.4.1"
+  },
+  "sourceFolder": "src",
+  "distFolder": "dist",
+  "meta": {
+    "title": "Photowake",
+    "description": "",
+    "name": "Chris Nicholls",
+    "keywords": "",
+    "thumbnail": "thumbnail.png",
+    "analytics": "UA-3051020-4"
+  },
+  "dependencies": {
+    "doctor": "^0.3.0",
+    "node-gyp": "^3.6.2",
+    "node-gyp-install": "^2.2.0"
+  }
+}

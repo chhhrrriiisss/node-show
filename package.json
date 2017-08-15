@@ -1,0 +1,35 @@
+{
+  "name": "photowake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./app.js",
+  "pkg": {
+    "assets": "app/**/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await": "^0.2.6",
+    "express": "^4.15.3",
+    "finalhandler": "^1.0.3",
+    "http": "0.0.0",
+    "image-size": "^0.6.1",
+    "jsonfile": "^3.0.1",
+    "millisecond": "^0.1.2",
+    "node-cmd": "^3.0.0",
+    "node-thumbnail": "^0.11.0",
+    "opn": "^5.1.0",
+    "piexifjs": "^1.0.3",
+    "replace-ext": "^1.0.0",
+    "serve-index": "^1.9.0",
+    "serve-static": "^1.12.3",
+    "sharp": "^0.18.2",
+    "single-line-log": "^1.1.2",
+    "socket.io": "^2.0.3",
+    "write-json-file": "^2.2.0"
+  }
+}
